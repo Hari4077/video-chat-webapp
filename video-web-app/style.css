@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    font-family: "Russo One",sans-serif;
+    background-color: #fff200;
+    color: #ffff;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+h1{
+    letter-spacing: 0.1rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+nav{
+    background-color: #fff200;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 1px rgb(0,0,0,0.2);
+}
+.nav-center{
+    width: 90vw;
+    max-width: 620px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+
+}
+
+.top{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+.nav-center h1{
+    margin: auto;
+    margin-top: 20px;
+    color: #1b1b1b;
+    
+}
+.container{
+    height: 500px;
+    width: 80%;
+    border: 1px solid white;
+    margin-top: 80px;
+    margin-left: 160px;
+    display: flex;
+
+}
+
+.left{
+    height: 500px;
+    width: 50%;
+    background-color: #4b4b4b;
+}
+
+.right{
+    height: 500px;
+    width: 50%;
+    background-color: #000;
+}
+
+.option{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.btn{
+    height: 50px;
+    width:50px;
+    border: none;
+    border-radius: 80px;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.right video{
+    width: 100%;
+    height:500px;
+    position: relative !important;
+}
